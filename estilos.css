@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-color: #e3dcdc;
+  color: #000;
+  position: relative;
+  
+    }
+
+
+@font-face {
+    font-family: Sifonn;
+    src: url(fonts/SIFONN_BASIC.ttf);
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color:#e3dcdc;
+position: relative;
+background-image: url(Imagenes/main.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items:flex-start;
+}
+
+
+
+.tain{
+    height: 50vh;
+    width: 100%;
+    background-color: #e3dcdc;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    font-family: Sifonn;
+    justify-content: space-between;
+    background-color: #CC0000;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+  
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.inc{
+    background-color: #e3dcdc;
+    border: 2px solid;
+    list-style: none;
+}
+
+.inc a {
+    text-decoration: none;
+    color: black;
+}
+
+.inc ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 5px;
+
+}
+
+nav a:hover{
+    color: #CC0000;
+}
+
+.imagen{
+    display: inline-block;
+    margin: 100px;
+    border: 4px solid #CC0000;
+    width: 200px;
+}
+
+.tata{
+    text-align: center;
+}
+
+footer {
+    background-color:#CC0000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+footer a{
+    color: black;
+    font-size: 40px;
+    
+}
+
+.redes a{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.pdfs{
+    text-align: center;   
+}
+.pdfs embed{
+    border: 10px solid #CC0000;
+    width: 600px;
+    height: 730px;
+}
+
+.Albums{
+    padding: 1px; 
+    font-family: Sifonn;
+    text-align: center;  
+    background-color: #CC0000;
+    text-transform: uppercase;
+    
+}
+
+.Sobres{
+    padding: 1px; 
+    font-family: Sifonn;
+    text-align: center;  
+    background-color: #CC0000;
+    text-transform: uppercase;
+}
+
+
+.galeria{
+height: auto;
+background-color: #e3dcdc;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(28,500px);
+padding: 20px;
+grid-gap: 20px;
+
+}
+
+
+.item{
+    border: 3px black solid;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1{
+    background-image: url(Sobres/1970frente.jpg);
+
+}
+
+.item2{
+    background-image: url(Sobres/1970reverso.jpg);
+}
+
+.item3{
+    background-image: url(Sobres/1974frente.jpg);
+
+}
+.item4{
+    background-image: url(Sobres/1974reverso.jpg);
+
+}
+
+.item5{
+    background-image: url(Sobres/1978frente.jpg);
+
+}
+
+.item6{
+    background-image: url(Sobres/1978reverso.jpg);
+
+}
+
+.item7{
+    background-image: url(Sobres/1982frente.jpg);
+
+}
+
+.item8{
+    background-image: url(Sobres/1982reverso.jpg);
+
+}
+
+.item9{
+    background-image: url(Sobres/1986frente.jpg);
+
+}
+
+.item10{
+    background-image: url(Sobres/1986reverso.jpg);
+
+}
+
+.item11{
+    background-image: url(Sobres/1990frente.jpg);
+
+}
+
+.item12{
+    background-image: url(Sobres/1990reverso.jpg);
+
+}
+
+.item13{
+    background-image: url(Sobres/1994frente.jpg);
+
+}
+
+.item14{
+    background-image: url(Sobres/1994reverso.jpg);
+
+}
+
+.item15{
+    background-image: url(Sobres/1998rente.jpg);
+
+}
+
+.item16{
+    background-image: url(Sobres/1998reverso.jpg);
+
+}
+
+.item17{
+    background-image: url(Sobres/2002frente.jpg);
+
+}
+
+.item18{
+    background-image: url(Sobres/2002reverso.jpg);
+
+}
+
+.item19{
+    background-image: url(Sobres/2006frente.jpg);
+
+}
+
+.item20{
+    background-image: url(Sobres/2006reverso.jpg);
+
+}
+
+.item21{
+    background-image: url(Sobres/2010frente.jpg);
+
+}
+
+.item22{
+    background-image: url(Sobres/2010reverso.jpg);
+
+}
+
+.item23{
+    background-image: url(Sobres/2014frente.jpg);
+
+}
+
+.item24{
+    background-image: url(Sobres/2014reverso.jpg);
+
+}
+
+.item25{
+    background-image: url(Sobres/2018frente.jpg);
+
+}
+
+.item26{
+    background-image: url(Sobres/2018reverso.jpg);
+
+}
+
+.item27{
+    background-image: url(Sobres/2022frente.jpg);
+
+}
+
+.item28{
+    background-image: url(Sobres/2022reverso.jpg);
+
+}
+
+
+.albums{
+    height: auto;
+    background-color: rgb(212, 218, 210);
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: repeat(5,200px);
+    padding: 20px;
+    grid-gap: 20px;
+    justify-content: center;
+
+}
+
+
+.pdf{
+    border: 3px black solid;
+    background-size: cover;
+    background-position: center;
+}
+
+.pdf1{
+    background-image: url(Portadas_del_mundial/70.jpg);
+}
+
+.pdf2{
+    background-image: url(Portadas_del_mundial/74.jpg)
+}
+
+.pdf3{
+    background-image: url(Portadas_del_mundial/78.jpg)
+}
+
+.pdf4{
+    background-image: url(Portadas_del_mundial/españa82.jpg)
+}
+
+.pdf5{
+    background-image: url(Portadas_del_mundial/86.jpg)
+}
+
+.pdf6{
+    background-image: url(Portadas_del_mundial/90.jpg)
+}
+
+.pdf7{
+    background-image: url(Portadas_del_mundial/usa94.jpg)
+}
+
+.pdf8{
+    background-image: url(Portadas_del_mundial/francia98.jpg)
+}
+
+.pdf9{
+    background-image: url(Portadas_del_mundial/koreajapon2002.jpg)
+}
+
+.pdf10{
+    background-image: url(Portadas_del_mundial/2006.jpg)
+}
+
+.pdf11{
+    background-image: url(Portadas_del_mundial/2010.jpg)
+}
+
+.pdf12{
+    background-image: url(Portadas_del_mundial/2014.jpg)
+}
+
+.pdf13{
+    background-image: url(Portadas_del_mundial/2018.jpg)
+}
+
+.pdf14{
+    background-image: url(Portadas_del_mundial/2022.jpg)
+}
+
+
+
+
+
+
+
+
+.sec{
+    padding: 50px;
+    height: 700px;
+} 
+
+.sec2{
+    padding: 50px;
+    height: 300px;
+text-align: center;
+}
+
+.sec2 img{
+    height: 300px;
+    width: 300px;
+    border: 4px solid #CC0000;
+}
+
+.contnos {
+    text-align: center;
+    background-color: #e3dcdc;
+    width: 450px;
+    
+}
+
+.formulario{
+    background-color: #e3dcdc;
+}
+
+#marco{
+    margin: 50px;
+
+}
+
+
+
+
+.back{
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+@media only screen and (min-width: 480px){
+    .galeria{
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(14, 300px);
+        justify-content: center;
+
+        
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 680px){
+    .albums{
+        grid-template-columns: 190px 190px;
+        grid-template-rows: repeat(8, 200px);
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .pdfs embed{
+        border: 10px solid #CC0000;
+        width: 350px;
+        height: 530px;
+    }
+}
+
+
+
+
+
+@media (max-width:700px){
+    main{
+        height: 170vh;
+    }
+}
+
+@media (max-width:700px){
+    .tain{
+        height: 120vh;
+    }
+}
