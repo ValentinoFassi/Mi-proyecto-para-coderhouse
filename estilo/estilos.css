@@ -338,4 +338,23 @@ footer a {
 
 .item28 {
   background-image: url(Sobres/2022reverso.jpg);
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #e3dcdc;
+  position: relative;
+  background-image: url(Imagenes/main.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tain {
+  height: 50vh;
+  width: 100%;
+  background-color: #e3dcdc;
 }/*# sourceMappingURL=estilos.css.map */
