@@ -1,0 +1,38 @@
+@media only screen and (min-width: 480px) {
+    .galeria {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(14, 300px);
+        justify-content: center;
+
+
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .albums {
+        grid-template-columns: 190px 190px;
+        grid-template-rows: repeat(8, 200px);
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .pdfs embed {
+        border: 10px solid #CC0000;
+        width: 350px;
+        height: 530px;
+    }
+}
+
+@media (max-width:700px) {
+    main {
+        height: 170vh;
+    }
+}
+
+@media (max-width:700px) {
+    .tain {
+        height: 120vh;
+    }
+}
