@@ -18,7 +18,7 @@ body {
 
 @font-face {
   font-family: Sifonn;
-  src: url(fonts/SIFONN_BASIC.ttf);
+  src: url(../fonts/SIFONN_BASIC.ttf);
 }
 header {
   height: 90px;
@@ -80,37 +80,6 @@ footer a {
   width: 450px;
 }
 
-@media only screen and (min-width: 480px) {
-  .galeria {
-    grid-template-columns: 300px 300px;
-    grid-template-rows: repeat(14, 300px);
-    justify-content: center;
-  }
-}
-@media only screen and (max-width: 680px) {
-  .albums {
-    grid-template-columns: 190px 190px;
-    grid-template-rows: repeat(8, 200px);
-    justify-content: center;
-  }
-}
-@media only screen and (max-width: 680px) {
-  .pdfs embed {
-    border: 10px solid #CC0000;
-    width: 350px;
-    height: 530px;
-  }
-}
-@media (max-width: 700px) {
-  main {
-    height: 170vh;
-  }
-}
-@media (max-width: 700px) {
-  .tain {
-    height: 120vh;
-  }
-}
 .imagen {
   display: inline-block;
   margin: 100px;
@@ -145,59 +114,59 @@ footer a {
 }
 
 .pdf1 {
-  background-image: url(Portadas_del_mundial/70.jpg);
+  background-image: url(../Portadas_del_mundial/70.jpg);
 }
 
 .pdf2 {
-  background-image: url(Portadas_del_mundial/74.jpg);
+  background-image: url(../Portadas_del_mundial/74.jpg);
 }
 
 .pdf3 {
-  background-image: url(Portadas_del_mundial/78.jpg);
+  background-image: url(../Portadas_del_mundial/78.jpg);
 }
 
 .pdf4 {
-  background-image: url(Portadas_del_mundial/españa82.jpg);
+  background-image: url(../Portadas_del_mundial/españa82.jpg);
 }
 
 .pdf5 {
-  background-image: url(Portadas_del_mundial/86.jpg);
+  background-image: url(../Portadas_del_mundial/86.jpg);
 }
 
 .pdf6 {
-  background-image: url(Portadas_del_mundial/90.jpg);
+  background-image: url(../Portadas_del_mundial/90.jpg);
 }
 
 .pdf7 {
-  background-image: url(Portadas_del_mundial/usa94.jpg);
+  background-image: url(../Portadas_del_mundial/usa94.jpg);
 }
 
 .pdf8 {
-  background-image: url(Portadas_del_mundial/francia98.jpg);
+  background-image: url(../Portadas_del_mundial/francia98.jpg);
 }
 
 .pdf9 {
-  background-image: url(Portadas_del_mundial/koreajapon2002.jpg);
+  background-image: url(../Portadas_del_mundial/koreajapon2002.jpg);
 }
 
 .pdf10 {
-  background-image: url(Portadas_del_mundial/2006.jpg);
+  background-image: url(../Portadas_del_mundial/2006.jpg);
 }
 
 .pdf11 {
-  background-image: url(Portadas_del_mundial/2010.jpg);
+  background-image: url(../Portadas_del_mundial/2010.jpg);
 }
 
 .pdf12 {
-  background-image: url(Portadas_del_mundial/2014.jpg);
+  background-image: url(../Portadas_del_mundial/2014.jpg);
 }
 
 .pdf13 {
-  background-image: url(Portadas_del_mundial/2018.jpg);
+  background-image: url(../Portadas_del_mundial/2018.jpg);
 }
 
 .pdf14 {
-  background-image: url(Portadas_del_mundial/2022.jpg);
+  background-image: url(../Portadas_del_mundial/2022.jpg);
 }
 
 .sec {
@@ -229,115 +198,115 @@ footer a {
 }
 
 .item1 {
-  background-image: url(Sobres/1970frente.jpg);
+  background-image: url(../Sobres/1970frente.jpg);
 }
 
 .item2 {
-  background-image: url(Sobres/1970reverso.jpg);
+  background-image: url(../Sobres/1970reverso.jpg);
 }
 
 .item3 {
-  background-image: url(Sobres/1974frente.jpg);
+  background-image: url(../Sobres/1974frente.jpg);
 }
 
 .item4 {
-  background-image: url(Sobres/1974reverso.jpg);
+  background-image: url(../Sobres/1974reverso.jpg);
 }
 
 .item5 {
-  background-image: url(Sobres/1978frente.jpg);
+  background-image: url(../Sobres/1978frente.jpg);
 }
 
 .item6 {
-  background-image: url(Sobres/1978reverso.jpg);
+  background-image: url(../Sobres/1978reverso.jpg);
 }
 
 .item7 {
-  background-image: url(Sobres/1982frente.jpg);
+  background-image: url(../Sobres/1982frente.jpg);
 }
 
 .item8 {
-  background-image: url(Sobres/1982reverso.jpg);
+  background-image: url(../Sobres/1982reverso.jpg);
 }
 
 .item9 {
-  background-image: url(Sobres/1986frente.jpg);
+  background-image: url(../Sobres/1986frente.jpg);
 }
 
 .item10 {
-  background-image: url(Sobres/1986reverso.jpg);
+  background-image: url(../Sobres/1986reverso.jpg);
 }
 
 .item11 {
-  background-image: url(Sobres/1990frente.jpg);
+  background-image: url(../Sobres/1990frente.jpg);
 }
 
 .item12 {
-  background-image: url(Sobres/1990reverso.jpg);
+  background-image: url(../Sobres/1990reverso.jpg);
 }
 
 .item13 {
-  background-image: url(Sobres/1994frente.jpg);
+  background-image: url(../Sobres/1994frente.jpg);
 }
 
 .item14 {
-  background-image: url(Sobres/1994reverso.jpg);
+  background-image: url(../Sobres/1994reverso.jpg);
 }
 
 .item15 {
-  background-image: url(Sobres/1998rente.jpg);
+  background-image: url(../Sobres/1998rente.jpg);
 }
 
 .item16 {
-  background-image: url(Sobres/1998reverso.jpg);
+  background-image: url(../Sobres/1998reverso.jpg);
 }
 
 .item17 {
-  background-image: url(Sobres/2002frente.jpg);
+  background-image: url(../Sobres/2002frente.jpg);
 }
 
 .item18 {
-  background-image: url(Sobres/2002reverso.jpg);
+  background-image: url(../Sobres/2002reverso.jpg);
 }
 
 .item19 {
-  background-image: url(Sobres/2006frente.jpg);
+  background-image: url(../Sobres/2006frente.jpg);
 }
 
 .item20 {
-  background-image: url(Sobres/2006reverso.jpg);
+  background-image: url(../Sobres/2006reverso.jpg);
 }
 
 .item21 {
-  background-image: url(Sobres/2010frente.jpg);
+  background-image: url(../Sobres/2010frente.jpg);
 }
 
 .item22 {
-  background-image: url(Sobres/2010reverso.jpg);
+  background-image: url(../Sobres/2010reverso.jpg);
 }
 
 .item23 {
-  background-image: url(Sobres/2014frente.jpg);
+  background-image: url(../Sobres/2014frente.jpg);
 }
 
 .item24 {
-  background-image: url(Sobres/2014reverso.jpg);
+  background-image: url(../Sobres/2014reverso.jpg);
 }
 
 .item25 {
-  background-image: url(Sobres/2018frente.jpg);
+  background-image: url(../Sobres/2018frente.jpg);
 }
 
 .item26 {
-  background-image: url(Sobres/2018reverso.jpg);
+  background-image: url(../Sobres/2018reverso.jpg);
 }
 
 .item27 {
-  background-image: url(Sobres/2022frente.jpg);
+  background-image: url(../Sobres/2022frente.jpg);
 }
 
 .item28 {
-  background-image: url(Sobres/2022reverso.jpg);
+  background-image: url(../Sobres/2022reverso.jpg);
 }
 
 main {
@@ -345,7 +314,7 @@ main {
   width: 100%;
   background-color: #e3dcdc;
   position: relative;
-  background-image: url(Imagenes/main.jpg);
+  background-image: url(../Imagenes/main.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -357,4 +326,36 @@ main {
   height: 50vh;
   width: 100%;
   background-color: #e3dcdc;
+}
+
+@media only screen and (min-width: 480px) {
+  .galeria {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(14, 300px);
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .albums {
+    grid-template-columns: 190px 190px;
+    grid-template-rows: repeat(8, 200px);
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .pdfs embed {
+    border: 10px solid #CC0000;
+    width: 350px;
+    height: 530px;
+  }
+}
+@media (max-width: 700px) {
+  main {
+    height: 170vh;
+  }
+}
+@media (max-width: 700px) {
+  .tain {
+    height: 120vh;
+  }
 }/*# sourceMappingURL=estilos.css.map */
