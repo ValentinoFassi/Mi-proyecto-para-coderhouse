@@ -1,6 +1,6 @@
 .galeria {
     height: auto;
-    background-color: #e3dcdc;
+    background-color: $color-gris;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(28, 500px);
@@ -9,7 +9,7 @@
 }
 
 .item {
-    border: 3px black solid;
+    border: 3px $color-negro solid;
     background-size: cover;
     background-position: center;
 }

@@ -2,7 +2,7 @@
     text-align: center;
 
     embed {
-        border: 10px solid #CC0000;
+        border: 10px solid $color-bordo;
         width: 600px;
         height: 730px;
     }
@@ -10,7 +10,7 @@
 
 .albums {
     height: auto;
-    background-color: rgb(212, 218, 210);
+    background-color: $color-gris;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: repeat(5, 200px);
@@ -20,7 +20,7 @@
 }
 
 .pdf {
-    border: 3px black solid;
+    border: 3px $color-negro solid;
     background-size: cover;
     background-position: center;
 }

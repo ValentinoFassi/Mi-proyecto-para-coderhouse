@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 680px) {
     .pdfs embed {
-        border: 10px solid #CC0000;
+        border: 10px solid $color-bordo;
         width: 350px;
         height: 530px;
     }
@@ -27,12 +27,33 @@
 
 @media (max-width:700px) {
     main {
-        height: 170vh;
+        height: 270vh;
     }
 }
 
 @media (max-width:700px) {
     .tain {
-        height: 120vh;
+        height: 220vh;
     }
 }
+
+// @media screen and (max-width: 650px){
+//     //.menu-hamburguesa{
+//     //     display: block;
+//     // }
+
+//     // .inc{
+//     //     display: none;
+//     //     position: absolute;
+//     // }
+//     // .inc {
+//     //     top:0;
+//     //     right: 0;
+//     //     background-color: $color-blanco;
+//     //     padding: 20px;
+//     // }
+
+//     // .inc-list{
+//     //     align-items: end;
+//     // }
+//     }

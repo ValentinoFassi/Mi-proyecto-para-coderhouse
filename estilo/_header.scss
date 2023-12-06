@@ -3,7 +3,7 @@ header {
     display: flex;
     font-family: Sifonn;
     justify-content: space-between;
-    background-color: #CC0000;
+    background-color: $color-bordo;
     align-items: center;
     padding: 5px;
     font-size: 20px;
@@ -11,26 +11,36 @@ header {
 
 .logo {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 
 .inc {
-    background-color: #e3dcdc;
-    border: 2px solid;
+    padding: 5px;
     list-style: none;
 
     a {
         text-decoration: none;
-        color: black;
+        color: $color-negro;
+        padding: 10px;
     }
 
-    ul li {
-        list-style: none;
-        display: inline-block;
-        padding: 2px 5px;
-    }
+
+}
+
+.inc-list{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    display:flex;
+
 }
 
 nav a:hover {
-    color: #CC0000;
+    color: $color-blanco;
+}
+
+.menu-hamburguesa{
+    display: none;
+    font-size: 50px;
 }
