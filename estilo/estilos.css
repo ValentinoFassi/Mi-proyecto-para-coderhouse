@@ -25,7 +25,7 @@ header {
   display: flex;
   font-family: Sifonn;
   justify-content: space-between;
-  background-color: #CC0000;
+  background-color: #908a8a;
   align-items: center;
   padding: 5px;
   font-size: 20px;
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #CC0000;
+  background-color: #908a8a;
   text-align: center;
 }
 
@@ -96,7 +96,7 @@ footer {
 .imagen {
   display: inline-block;
   margin: 100px;
-  border: 4px solid #CC0000;
+  border: 4px solid #908a8a;
   width: 200px;
 }
 
@@ -104,7 +104,7 @@ footer {
   text-align: center;
 }
 .pdfs embed {
-  border: 10px solid #CC0000;
+  border: 10px solid #908a8a;
   width: 600px;
   height: 730px;
 }
@@ -357,18 +357,25 @@ main {
 }
 @media only screen and (max-width: 680px) {
   .pdfs embed {
-    border: 10px solid #CC0000;
+    border: 10px solid #908a8a;
     width: 350px;
     height: 530px;
   }
 }
 @media (max-width: 700px) {
   main {
-    height: 270vh;
+    height: 170vh;
   }
 }
 @media (max-width: 700px) {
   .tain {
-    height: 220vh;
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  header {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
   }
 }/*# sourceMappingURL=estilos.css.map */
