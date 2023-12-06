@@ -354,8 +354,6 @@ main {
     grid-template-rows: repeat(8, 200px);
     justify-content: center;
   }
-}
-@media only screen and (max-width: 680px) {
   .pdfs embed {
     border: 10px solid #908a8a;
     width: 350px;
