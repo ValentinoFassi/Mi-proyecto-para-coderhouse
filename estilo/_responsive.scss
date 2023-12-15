@@ -14,6 +14,7 @@
         grid-template-rows: repeat(8, 200px);
         justify-content: center;
     }
+
     .pdfs embed {
         border: 10px solid $color-bordo;
         width: 350px;
@@ -35,35 +36,66 @@
     }
 }
 
-// @media screen and (max-width: 650px){
-//     // .menu-hamburguesa{
-//     //     display: block;
-//     // }
+@media screen and (max-width: 650px) {
 
-//     // .inc{
-//     //     display: none;
-//     //     position: absolute;
-//     // }
-//     .inc {
-//         position: absolute;
-//         top:0;
-//         right: 0;
-//         bottom: 0;
-//         background-color: $color-blanco;
-//         padding: 30px;
-        
-//     }
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+    }
 
-//     .inc-list{
-//         flex-direction: column;
-//         align-items: end;
-//     }
-//     }
-@media screen and (max-width: 650px){
-    header{
-        height: auto;
+    .inc {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $color-negroclaro;
+        padding: 1rem;
 
+        a {
+            text-decoration: none;
+            color: $color-gris;
+            padding: 10px;
+
+        }
+
+        &.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    .inc-list {
+        flex-direction: column;
+        align-items: end;
+        font-size: 23px;
+    }
+
+    .abrir-menu:hover,
+    .cerrar-menu:hover {
+        color: $color-blanco;
+    }
+
+    .logo {
+        padding-top: 20px;
+    }
 }
-}
+
+
+
+
+
+// @media screen and (max-width: 650px){
+//     header{
+//         height: auto;
+//         flex-direction: column;
+//         text-align: center;
+
+// }
+// }

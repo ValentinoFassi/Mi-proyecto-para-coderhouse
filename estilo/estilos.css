@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* #2e2d2d */
 * {
   margin: 0;
   padding: 0;
@@ -43,8 +44,8 @@ header {
 }
 .inc a {
   text-decoration: none;
-  color: black;
-  padding: 10px;
+  color: #000000;
+  padding: 20px;
 }
 
 .inc-list {
@@ -54,13 +55,21 @@ header {
   display: flex;
 }
 
-nav a:hover {
+nav a:hover,
+.abrir-menu:hover,
+.cerrar-menu:hover {
   color: white;
 }
 
-.menu-hamburguesa {
+.abrir-menu,
+.cerrar-menu {
   display: none;
   font-size: 50px;
+  border: none;
+  color: #000000;
+  background: transparent;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 footer {
@@ -74,8 +83,8 @@ footer {
 }
 .redes a {
   font-size: 30px;
-  color: black;
-  border: 1px solid black;
+  color: #000000;
+  border: 1px solid #000000;
   width: 50px;
   height: 50px;
   margin: 0 8px;
@@ -121,7 +130,7 @@ footer {
 }
 
 .pdf {
-  border: 3px black solid;
+  border: 3px #000000 solid;
   background-size: cover;
   background-position: center;
 }
@@ -205,7 +214,7 @@ footer {
 }
 
 .item {
-  border: 3px black solid;
+  border: 3px #000000 solid;
   background-size: cover;
   background-position: center;
 }
@@ -371,9 +380,44 @@ main {
   }
 }
 @media screen and (max-width: 650px) {
-  header {
-    height: auto;
+  .abrir-menu,
+  .cerrar-menu {
+    display: block;
+  }
+  .inc {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #444242;
+    padding: 1rem;
+  }
+  .inc a {
+    text-decoration: none;
+    color: #e3dcdc;
+    padding: 10px;
+  }
+  .inc.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .inc-list {
+    flex-direction: column;
+    align-items: end;
+    font-size: 23px;
+  }
+  .abrir-menu:hover,
+  .cerrar-menu:hover {
+    color: white;
+  }
+  .logo {
+    padding-top: 20px;
   }
 }/*# sourceMappingURL=estilos.css.map */

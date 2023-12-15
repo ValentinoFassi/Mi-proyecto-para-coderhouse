@@ -22,25 +22,32 @@ header {
     a {
         text-decoration: none;
         color: $color-negro;
-        padding: 10px;
+        padding: 20px;
     }
 
 
 }
 
-.inc-list{
+.inc-list {
     list-style: none;
     text-align: center;
     font-size: 30px;
-    display:flex;
-
+    display: flex;
 }
 
-nav a:hover {
+nav a:hover,
+.abrir-menu:hover,
+.cerrar-menu:hover {
     color: $color-blanco;
 }
 
-.menu-hamburguesa{
+.abrir-menu,
+.cerrar-menu {
     display: none;
     font-size: 50px;
+    border: none;
+    color: $color-negro;
+    background: transparent;
+    padding-right: 10px;
+    padding-top: 10px;
 }

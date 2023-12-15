@@ -23,12 +23,14 @@
 
     <header>
         <div class="logo">TusFigus</div>
-        <button class="menu-hamburguesa"><i class="fa-solid fa-burger"></i></button>
-        <nav class="inc">
+        <button id="abrir" class="abrir-menu"><i class="fa-solid fa-bars"></i></button>
+        <nav class="inc" id="inc">
+            <button id="cerrar" class="cerrar-menu"><i class="fa-solid fa-circle-xmark"></i></button> 
             <ul class="inc-list">
                 <li><a href="index.html" class="link">Inicio</a></li>
                 <li><a href="Pages/Nosotros.html" class="link">Nosotros</a></li>
                 <li><a href="Pages/Contacto.html" class="link">Contacto</a></li>
+                <li><a href="#" class="link">Que hacemos</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +38,6 @@
 
     <main>
         <div class="tata">
-
             <a href="Pages/Albums.html"><img class="imagen" src="Imagenes/Albums.jpg" alt="Albums"></a>
             <a href="Pages/Sobres.html"><img class="imagen" src="Imagenes/Sobres.jpg" alt="sobre"></a>
             <a href="Pages/Otros.html"><img class="imagen" src="Imagenes/Otros.jpg" alt="Otros"></a>
@@ -67,6 +68,7 @@
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
