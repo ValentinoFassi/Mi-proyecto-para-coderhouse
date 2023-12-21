@@ -75,6 +75,7 @@ nav a:hover,
 footer {
   background-color: #908a8a;
   text-align: center;
+  font-family: Sifonn;
 }
 
 .redes {
@@ -96,17 +97,123 @@ footer {
   border: 1px solid white;
 }
 
-.contnos {
-  text-align: center;
-  background-color: #e3dcdc;
-  width: 450px;
+.container-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 100px;
+}
+.container-form h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+.container-form p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.container-form a {
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: #000000;
+  font-weight: 700;
+}
+.container-form a i {
+  color: #000000;
+  margin-right: 10px;
+}
+.container-form iframe {
+  background-color: rgba(227, 220, 220, 0.7);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-form img {
+  background-color: rgba(227, 220, 220, 0.7);
+  padding: 15px;
+}
+.container-form form .campo {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 1px solid #e3dcdc;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 1px solid #e3dcdc;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+  resize: none;
+  height: 30px;
+}
+
+.container-form form textarea {
+  max-width: 530px;
+  min-width: none;
+  min-height: 140px;
+  max-height: 150px;
+}
+.container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: #000000;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover {
+  background: #444242;
+}
+
+.info-form,
+.form {
+  background-color: rgba(227, 220, 220, 0.7);
+  padding: 10px;
+}
+
+.nosotros {
+  background-color: rgba(227, 220, 220, 0.7);
+  padding: 10px;
 }
 
 .imagen {
-  display: inline-block;
-  margin: 100px;
   border: 4px solid #908a8a;
   width: 200px;
+}
+.imagen:hover {
+  scale: 0.9;
+}
+
+.tata {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  padding-top: 100px;
+  grid-gap: 200px;
+}
+
+.tata2 {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  justify-content: center;
+  padding-top: 100px;
+  grid-gap: 150px;
 }
 
 .pdfs {
@@ -133,6 +240,9 @@ footer {
   border: 3px #000000 solid;
   background-size: cover;
   background-position: center;
+}
+.pdf:hover {
+  scale: 0.9;
 }
 
 .pdf1 {
@@ -339,9 +449,6 @@ main {
   background-image: url(../Imagenes/main.jpg);
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
 }
 
 .tain {
@@ -350,6 +457,17 @@ main {
   background-color: #e3dcdc;
 }
 
+@media only screen and (max-width: 680px) {
+  .container-form {
+    grid-template-columns: 300px;
+    justify-self: center;
+    padding-left: 60px;
+  }
+  .container-form iframe {
+    width: 100%;
+    height: 700px;
+  }
+}
 @media only screen and (min-width: 480px) {
   .galeria {
     grid-template-columns: 300px 300px;
@@ -367,6 +485,18 @@ main {
     border: 10px solid #908a8a;
     width: 350px;
     height: 530px;
+  }
+  .tata {
+    grid-template-columns: 200px;
+    grid-template-rows: 3;
+    grid-gap: 250px;
+    justify-content: center;
+  }
+  .tata2 {
+    grid-template-columns: 200px;
+    grid-template-rows: 2;
+    grid-gap: 250px;
+    justify-content: center;
   }
 }
 @media (max-width: 700px) {
@@ -398,6 +528,7 @@ main {
     bottom: 0;
     background-color: #444242;
     padding: 1rem;
+    transition: all 0.4s;
   }
   .inc a {
     text-decoration: none;

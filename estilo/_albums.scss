@@ -23,6 +23,10 @@
     border: 3px $color-negro solid;
     background-size: cover;
     background-position: center;
+
+        &:hover{
+            scale: 0.9;
+        }
 }
 
 .pdf1 {
