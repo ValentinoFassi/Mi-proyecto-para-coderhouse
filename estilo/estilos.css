@@ -137,6 +137,7 @@ footer {
 .container-form img {
   background-color: rgba(227, 220, 220, 0.7);
   padding: 15px;
+  align-items: center;
 }
 .container-form form .campo {
   width: 100%;
@@ -218,6 +219,7 @@ textarea {
 
 .pdfs {
   text-align: center;
+  padding-bottom: 100px;
 }
 .pdfs embed {
   border: 10px solid #908a8a;
@@ -441,6 +443,38 @@ textarea {
   background-image: url(../Sobres/2022reverso.jpg);
 }
 
+.historiaMundiales {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 300px);
+  padding: 20px;
+  grid-gap: 20px;
+}
+
+.sobres {
+  border: 3px #000000 solid;
+  background-size: cover;
+  background-position: center;
+  background-color: red;
+}
+
+.sobre1 {
+  background-image: url(../Sobres/HistoriaMundialfrente.jpg);
+}
+
+.sobre2 {
+  background-image: url(../Sobres/HistoriaMundialReverso.jpg);
+}
+
+.sobre3 {
+  background-image: url(../Sobres/HistoriaMundialReverso.jpg);
+}
+
+.sobre4 {
+  background-image: url(../Sobres/HistoriaMundialReverso.jpg);
+}
+
 main {
   height: 100vh;
   width: 100%;
@@ -474,6 +508,11 @@ main {
     grid-template-rows: repeat(14, 300px);
     justify-content: center;
   }
+  .historiaMundiales {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px;
+    justify-content: center;
+  }
 }
 @media only screen and (max-width: 680px) {
   .albums {
@@ -503,10 +542,12 @@ main {
   main {
     height: 170vh;
   }
-}
-@media (max-width: 700px) {
   .tain {
-    height: 120vh;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .tain2 {
+    height: auto;
   }
 }
 @media screen and (max-width: 650px) {

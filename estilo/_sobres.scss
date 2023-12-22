@@ -124,3 +124,34 @@
 .item28 {
     background-image: url(../Sobres/2022reverso.jpg);
 }
+
+
+.historiaMundiales {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,300px);
+    padding: 20px;
+    grid-gap: 20px;
+}
+
+.sobres {
+    border: 3px $color-negro solid;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+}
+
+.sobre1{
+    background-image: url(../Sobres/HistoriaMundialfrente.jpg);
+}
+
+.sobre2{
+    background-image: url(../Sobres/HistoriaMundialReverso.jpg);
+}
+.sobre3{
+    background-image: url(../Sobres/HistoriaMundialReverso.jpg);
+}
+.sobre4{
+    background-image: url(../Sobres/HistoriaMundialReverso.jpg);
+}
